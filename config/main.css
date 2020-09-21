@@ -1,0 +1,324 @@
+section, footer{
+  display: block;
+}
+
+.footer-main{
+
+}
+
+.logo_main{
+  display: block;
+  margin: auto;
+
+}
+
+.logo-main {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-top: 100em;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+.wrapper-main{
+  max-width: 100px;
+  padding: 1px 15px 1px;
+    padding-top: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 20px;
+  text-align: center;
+
+}
+
+.wrapper, .base-font, .body-baseline-base, .body-lg-base, .body-md-base, .body-sm-base, .body-xlg-base, .headline-baseline-base, .headline-lg-base, .headline-md-base, .headline-sm-base, .headline-xlg-base, .product-base, [class*="ncss-btn"] {
+    font-family: "Noto Sans KR", "Malgun Gothic", "MalgunGothic", Dotum, Helvetica, Arial, sans-serif;
+    color: #111;
+}
+@media screen and (min-width: 1024px)
+.wrapper {
+    padding-top: 108px;
+}
+.wrapper {
+    min-height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, img, menu, nav, section {
+    display: block;
+}
+
+[class*='uk-float-']{
+  max-width: 100%;
+}
+
+.uk-clearfix:before {
+    content: "";
+    display: table-cell;
+}
+:after, :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+.header_layout_1 .header-gnb > .header-gnb_maxwidth:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.uk-clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.uk-float-left {
+    float: left;
+    display:none;
+}
+ol, ul {
+    list-style: none;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.header_layout_1 .header-gnb > .header-gnb_maxwidth > .header-mymenu > li .join {
+    padding-right: 0;
+}
+
+.header_layout_1 .header-gnb > .header-gnb_maxwidth > .header-mymenu > li .login {
+    padding-left: 0;
+}
+
+.header_layout_1 .header-gnb > .header-gnb_maxwidth > .header-mymenu > li a {
+    display: inline-block;
+    padding: 0 11px;
+    padding-top: 0px;
+    padding-right: 11px;
+    padding-bottom: 0px;
+    padding-left: 11px;
+    line-height: 38px;
+}
+.header_layout_1 .header-gnb a {
+    display: inline-block;
+    padding: 10px 0;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    color: #8d8d8d;
+}
+a {
+    font-weight: normal;
+}
+a {
+    color: #111;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-style: inherit;
+    font-variant-ligatures: inherit;
+    font-variant-caps: inherit;
+    font-variant-numeric: inherit;
+    font-variant-east-asian: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+.uk-float-right{
+  float: right;
+}
+
+.header_layout_1 .header-gnb > .header-gnb_maxwidth > .header-mymenu {
+    float: right;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin: 0 20px 0 0;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.header_layout_1 .header-gnb > .header-gnb_maxwidth {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.header_layout_1 .header-gnb {
+    position: relative;
+    color: #8d8d8d;
+    font-size: 12px;
+    background: #ffffff;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e5e5e5;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(229, 229, 229);
+    z-index: 102;
+}
+
+.header_layout_1 .header-lnb .header-menu_above{
+    display: inline-block;
+    padding: 0;
+    line-height: 32px;
+    width: calc(100% - 118px);
+}
+
+.header_layout_1 .header-lnb .header-menu_onedepth {
+    display: inline-block;
+    padding: 0;
+    line-height: 26px;
+    text-align: center;
+    vertical-align: middle;
+    width: calc(100% - 118px);
+}
+
+.header_layout_1 .header-lnb .header-menu_onedepth > .onedepth-list {
+    position: static;
+    display: inline-block;
+    padding: 0 20px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+
+.header_layout_1 .header-lnb ul {
+    list-style: none;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    border: 0;
+}
+
+.logo{
+  width: 120px;
+  height: 64px;
+
+}
+
+.main-banner{
+  display: block;
+  margin: auto;
+  vertical-align: middle;
+  width: 800px;
+  height: 600px;
+
+}
+
+.header_layout_1 {
+    position: fixed;
+    width: 100%;
+    z-index: 192;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+}
+.header_layout_1 .header-lnb {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0 32px 0 30px;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: 101;
+    background: #ffffff;
+    border-bottom: 0px solid #e5e5e5;
+    align-items: center;
+    justify-items: center;
+}
+.header_layout_1 .header-lnb .header-logo {
+    display: flex;
+    width: 194px;
+    height: 70px;
+    padding: 15px 0;
+    text-align: left;
+    box-sizing: border-box;
+    vertical-align: middle;
+    font-size: 28.05px;
+    align-items: center;
+}
+
+li{
+  margin: 0;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      padding: 0;
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+      border: 0;
+      border-top-color: initial;
+      border-top-style: initial;
+      border-top-width: 0px;
+      border-right-color: initial;
+      border-right-style: initial;
+      border-right-width: 0px;
+      border-bottom-color: initial;
+      border-bottom-style: initial;
+      border-bottom-width: 0px;
+      border-left-color: initial;
+      border-left-style: initial;
+      border-left-width: 0px;
+      border-image-source: initial;
+      border-image-slice: initial;
+      border-image-width: initial;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      font: inherit;
+      font-style: inherit;
+      font-variant-ligatures: inherit;
+      font-variant-caps: inherit;
+      font-variant-numeric: inherit;
+      font-variant-east-asian: inherit;
+      font-weight: inherit;
+      font-stretch: inherit;
+      font-size: inherit;
+      line-height: inherit;
+      font-family: inherit;
+      vertical-align: baseline;
+
+}
+
+ul{
+  list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+}
+
+
+header{
+  display: block;
+}

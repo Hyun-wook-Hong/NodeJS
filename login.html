@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LOGIN</title>
+  <meta charset="utf-8">
+  <link href="/config/main.css" rel="stylesheet" type="text/css" />
+  <link href="/config/login.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header class="header_gnb">
+    <!-- 로그인 | 회원가입 | 고객센터 - START -->
+    <div class="uk-clearfix header-gnb_maxwidth">
+      <!-- 일단 이 float left 태그는 안보이게 가려버리자-->
+    <ul class="uk-float-left header-brand">
+        <li><a data-click-area="Upper GNB" data-click-name="Nike" href="/kr/ko_kr/"><span>Nike</span></a></li>
+        <li><a href="https://www.nike.com/kr/ko_kr/c/nike-membership" target="_blank" data-click-area="Upper GNB" data-click-name="Join Us"><span>Join Us</span></a></li>
+      </ul>
+
+      <ul class="uk-float-right header-mymenu">
+        <li>
+          <span>
+            <a title="회원가입" data-click-area="Upper GNB" data-click-name="join" class="join" href="/kr/ko_kr/register">회원가입</a>
+            /
+
+            <a title="로그인" data-click-area="Upper GNB" data-click-name="login" class="login" href="login.html">로그인</a>
+          </span>
+        </li>
+      </ul>
+
+    </div>
+    <!-- 로그인 | 회원가입 | 고객센터 -   END -->
+  </header>
+
+  <header class="header_layout_1 ">
+    <nav class="header-lnb">
+      <!-- logo - START-->
+      <a class="header-logo" href="http://127.0.0.1:8008/">
+          <img class="logo" src="/config/logo.PNG" />
+        </a>
+      <!-- logo - END  -->
+
+      <!-- 게시판 모음 - START -->
+      <ul class="header-menu_onedepth">
+            <li class="onedepth-list">
+              <a href="http://127.0.0.1:8008/" data-click-area="GNB" data-click-name="HOME">HOME</a>
+              </li>
+            <li class="onedepth-list">
+              <a href="http://127.0.0.1:8008/" data-click-area="GNB" data-click-name="ABOUT US">ABOUT US</a>
+              </li>
+            <li class="onedepth-list">
+              <a href="http://127.0.0.1:8008/" data-click-area="GNB" data-click-name="OUR MUSIC">OUR MUSIC</a>
+              </li>
+            <li class="onedepth-list">
+              <a href="http://127.0.0.1:8008/" data-click-area="GNB" data-click-name="CONTACT">CONTACT</a>
+             </li>
+             <li class="onedepth-list">
+               <a href="http://127.0.0.1:8008/" data-click-area="GNB" data-click-name="BOARD">BOARD</a>
+              </li>
+              <li class="onedepth-list">
+                <a href="http://127.0.0.1:8008/" data-click-area="GNB" data-click-name="CONTACT">MEMBERS</a>
+               </li>
+        </ul>
+      <!-- 게시판 모음 -   END -->
+    </nav>
+  </header>
+
+  <div class="login-page">
+    <div class="form">
+      <form class="register-form">
+        <input type="text" placeholder="name"/>
+        <input type="password" placeholder="password"/>
+        <input type="text" placeholder="email address"/>
+        <button>create</button>
+        <p class="message">Already registered? <a href="#">Sign In</a></p>
+      </form>
+      <form class="login-form">
+        <input type="text" placeholder="username"/>
+        <input type="password" placeholder="password"/>
+        <button>login</button>
+        <p class="message">Not registered? <a href="#">Create an account</a></p>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    Copyright ⓒ 2020 All right reserved Jeremy Hong
+  </footer>
+
+</body>
+</html>
