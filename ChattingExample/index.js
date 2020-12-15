@@ -21,7 +21,7 @@ io.on('connection', function(socket){
     // 메세지 전송 socket 이벤트
 
     socket.on('chat message', function(msg){
-        console.log('message: ' + msg);
+        io.emit('chat message',  msg);
     });
 
     // 연결해제 이벤트
