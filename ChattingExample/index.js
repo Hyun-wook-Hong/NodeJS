@@ -1,9 +1,8 @@
-//index.js
-//'use strict';
 
-let app = require('express')();
-let http = require('http').Server(app);
-let io = require('socket.io')(http);
+var app = require('express')();
+var http = require('http').Server(app);
+var io = require('socket.io')(http);
+var port = process.env.PORT || 3000;
 
 // form의 send버튼을 누르면 msg string이 생성된다.
 
@@ -16,20 +15,13 @@ app.get('/', function(req, res){
 
 // I/O기능 추가, 유저가 접속했습니다! 이벤트 콘솔에 출력
 io.on('connection', function(socket){
-    console.log("A client has been connected!");
-
-    // 메세지 전송 socket 이벤트
-
     socket.on('chat message', function(msg){
-        io.emit('chat message',  msg);
+      io.emit('chat message', msg);
     });
+  });
 
-    // 연결해제 이벤트
-    socket.on('disconnect', function(){
-        console.log("Client has been disconnected!");
-    })
+
+http.listen(port, function(){
+    console.log(`Server is running at localhost: ${port}`);
 });
 
-http.listen(3000, function(){
-    console.log('Server is running at localhost: 3000');
-});
